@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="pytest-ipdb",
+    name="pytest-ipdb2",
     py_modules=["pytest_ipdb"],
     install_requires=['ipdb'],
     version="0.1",
@@ -25,7 +25,7 @@ setup(
 
     entry_points = {
         "pytest11": [
-            "pytest_ipdb = pytest_ipdb",
+            "pytest_ipdb2 = pytest_ipdb",
         ]
     },
 )
